@@ -14,6 +14,7 @@ namespace BankingWebApi.Data
         {
         }
 
-        public DbSet<BankingWebApi.Models.Customer> Customer { get; set; } = default!;
+        public DbSet<Customer> Customers { get; set; } = default!;
+        public DbSet<Account> Accounts { get; set; } = default!;
     }
 }

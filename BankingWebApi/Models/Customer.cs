@@ -20,6 +20,5 @@ namespace BankingWebApi.Models
         [Column(TypeName = "DateTime")]
         public DateTime? ModifiedDate { get; set; }
 
-
     }
 }
